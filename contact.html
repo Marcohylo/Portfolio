@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About me</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap">
+    <script src="https://kit.fontawesome.com/f8801e2d74.js"></script>
+    <link rel="stylesheet" href="./contact.css">
+    <title>transparent navigation bar</title>
+
+</head>
+<body>
+    <nav>
+        <h2>
+            <span style="font-size: 3em; color:#fffdd0;">
+                <a href="./index.html"> <i class="fas fa-chess-rook"></i>
+            </span>
+        </h2>
+        <div class="links">
+            <a href="./index.html">Home</a>
+            <a href="./about_me.html">About me</a>
+            <a href="./skills.html">Skills</a>
+            <a href="./blog.html">Blog</a>
+            <a href="./contact.html">Contact</a>
+        </div>
+    </nav>
+        
+    <h1 class="top-header">CONTACT</h1>
+    <div id="main">
+    </div>
+
+    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/marco1993@live.com" method="post">
+        <!-- <fieldset id="fs-frm-inputs"> -->
+          <label for="full-name">Full Name</label>
+          <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+          <label for="email-address">Email Address</label>
+          <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+          <label for="message">Message</label>
+          <textarea rows="5" name="message" id="message" placeholder="Please insert message here" required=""></textarea>
+          <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+        <!-- </fieldset> -->
+        <input type="submit" value="Submit" id="submit-button">
+      </form>
+
+<div class="footer">
+    
+<div class ="logo">
+<a href="https://github.com/Marcohylo"><i class="fab fa-github fa-2x"></i></a>
+<a href="https://www.linkedin.com/in/marcoxdnex"><i class="fab fa-linkedin-in fa-2x"></i></a>
+</div> 
+<h4 style="font-family":calibri> &copy; All rights reserved. </h4>
+</div>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+               
+        var mybutton = document.getElementById("myBtn");
+        
+        
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+
+</body>
+</html>
