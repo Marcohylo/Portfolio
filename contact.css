@@ -7,7 +7,7 @@ body {
     background-color: #846851;
 }
 
-.top-header {
+/* .top-header {
     width: 100%;
     max-width: 960px;
     font: 4em "Amatic SC", cursive;
@@ -15,8 +15,9 @@ body {
     text-shadow:1px 1px 0 rgba(0,0,0,.2);
     margin: 40px auto;
     text-align: center; 
-    text-shadow: 1px 1px 1px #000
+    text-shadow: 1px 1px 1px #000 */
 }
+
 
 * {
     margin: 0;
