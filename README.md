@@ -1,3 +1,8 @@
+**FOR THE NEW AND IMPROVED PORTFOLIO PLEASE GO TO:**
+
+https://officialmarco.netlify.com/
+
+
 **Marco Lo's Portfolio**
 Link: https://marcolotr.netlify.com/index.html
 GitHub Repository: https://github.com/Marcohylo
